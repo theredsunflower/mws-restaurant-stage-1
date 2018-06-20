@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         '/',
         '/index.html', 
-        '/restaurant.html'
+        '/restaurant.html?id={x}'
       ]);
     })
   );
